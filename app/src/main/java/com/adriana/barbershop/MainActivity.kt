@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-        binding.btLogin.setOnClickListener {
+        binding.btLogin.setOnClickListener{
             val nome = binding.editNome.text.toString()
             val senha = binding.editSenha.text.toString()
 
